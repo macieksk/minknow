@@ -21,6 +21,8 @@ RUN export uid=$MYUID gid=$MYGID && \
     chmod 0440 /etc/sudoers.d/minion && \
     chown ${uid}:${gid} -R /home/minion
 
+RUN ln -s /home/minion /opt/ONT/MinKNOW/reads
+
 USER minion
 ENV HOME /home/minion
 
