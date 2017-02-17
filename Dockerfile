@@ -25,5 +25,3 @@ USER minion
 ENV HOME /home/minion
 
 CMD /opt/ONT/MinKNOW/Client/MinKNOW
-
-#docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix minknow1
