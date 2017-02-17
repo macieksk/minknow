@@ -2,6 +2,9 @@
 Dockerfile for the MinKNOW software from Oxford Nanopore
 
 ## use
+
+navigate to the folder you would like to store reads in and enter:
+
 ```bash
 docker run \
 --rm \
